@@ -1,0 +1,86 @@
+# French translations for Flask i18n Demo.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the Flask i18n Demo project.
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-09-15 12:00+0000\n"
+"PO-Revision-Date: 2023-09-15 12:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+msgid "Flask i18n Demo"
+msgstr "Démo i18n Flask"
+
+msgid "Home"
+msgstr "Accueil"
+
+msgid "About"
+msgstr "À propos"
+
+msgid "Current language"
+msgstr "Langue actuelle"
+
+msgid "Flask i18n and l10n Demo"
+msgstr "Démo i18n et l10n Flask"
+
+msgid "2023"
+msgstr "2023"
+
+msgid "Welcome to the Flask i18n Demo"
+msgstr "Bienvenue à la Démo i18n Flask"
+
+msgid "This is a demonstration of internationalization and localization in Flask."
+msgstr "Ceci est une démonstration d'internationalisation et de localisation dans Flask."
+
+msgid "Localization Examples"
+msgstr "Exemples de Localisation"
+
+msgid "Date and Time Formatting"
+msgstr "Formatage de Date et Heure"
+
+msgid "Current time"
+msgstr "Heure actuelle"
+
+msgid "Number Formatting"
+msgstr "Formatage de Nombres"
+
+msgid "Formatted number"
+msgstr "Nombre formaté"
+
+msgid "Change the language using the links in the header to see how the content changes."
+msgstr "Changez la langue en utilisant les liens dans l'en-tête pour voir comment le contenu change."
+
+msgid "About This Application"
+msgstr "À propos de Cette Application"
+
+msgid "This is a demonstration application showing how to implement internationalization (i18n) and localization (l10n) in a Flask application."
+msgstr "Ceci est une application de démonstration montrant comment implémenter l'internationalisation (i18n) et la localisation (l10n) dans une application Flask."
+
+msgid "Features"
+msgstr "Fonctionnalités"
+
+msgid "Multiple language support (English, Spanish, French)"
+msgstr "Support de plusieurs langues (Anglais, Espagnol, Français)"
+
+msgid "Language detection based on browser settings"
+msgstr "Détection de langue basée sur les paramètres du navigateur"
+
+msgid "Manual language selection"
+msgstr "Sélection manuelle de langue"
+
+msgid "Localized date/time formatting"
+msgstr "Formatage de date/heure localisé"
+
+msgid "Localized number formatting"
+msgstr "Formatage de nombres localisé"
+
+msgid "Technologies Used"
+msgstr "Technologies Utilisées"

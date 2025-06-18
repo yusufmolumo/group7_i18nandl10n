@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ _('Home') }} - {{ _('Flask i18n Demo') }}{% endblock %}
+
+{% block content %}
+<h1>{{ _('Welcome to the Flask i18n Demo') }}</h1>
+<p>{{ _('This is a demonstration of internationalization and localization in Flask.') }}</p>
+
+<h2>{{ _('Localization Examples') }}</h2>
+<div class="examples">
+    <div class="example">
+        <h3>{{ _('Date and Time Formatting') }}</h3>
+        <p>{{ _('Current time') }}: {{ formatted_time }}</p>
+    </div>
+    
+    <div class="example">
+        <h3>{{ _('Number Formatting') }}</h3>
+        <p>{{ _('Formatted number') }}: {{ formatted_number }}</p>
+    </div>
+</div>
+
+<p>{{ _('Change the language using the links in the header to see how the content changes.') }}</p>
+{% endblock %}

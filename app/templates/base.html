@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{{ _('Flask i18n Demo') }}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">{{ _('Home') }}</a></li>
+                <li><a href="{{ url_for('about') }}">{{ _('About') }}</a></li>
+            </ul>
+            <div class="language-selector">
+                <a href="{{ url_for('set_language', language='en') }}">English</a> |
+                <a href="{{ url_for('set_language', language='es') }}">Español</a> |
+                <a href="{{ url_for('set_language', language='fr') }}">Français</a>
+                <span>{{ _('Current language') }}: {{ locale }}</span>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    
+    <footer>
+        <p>{{ _('Flask i18n and l10n Demo') }} &copy; {{ _('2023') }}</p>
+    </footer>
+</body>
+</html>

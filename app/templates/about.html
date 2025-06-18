@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ _('About') }} - {{ _('Flask i18n Demo') }}{% endblock %}
+
+{% block content %}
+<h1>{{ _('About This Application') }}</h1>
+<p>{{ _('This is a demonstration application showing how to implement internationalization (i18n) and localization (l10n) in a Flask application.') }}</p>
+
+<h2>{{ _('Features') }}</h2>
+<ul>
+    <li>{{ _('Multiple language support (English, Spanish, French)') }}</li>
+    <li>{{ _('Language detection based on browser settings') }}</li>
+    <li>{{ _('Manual language selection') }}</li>
+    <li>{{ _('Localized date/time formatting') }}</li>
+    <li>{{ _('Localized number formatting') }}</li>
+</ul>
+
+<h2>{{ _('Technologies Used') }}</h2>
+<ul>
+    <li>Flask</li>
+    <li>Flask-Babel</li>
+    <li>Jinja2 Templates</li>
+    <li>HTML/CSS</li>
+</ul>
+{% endblock %}
